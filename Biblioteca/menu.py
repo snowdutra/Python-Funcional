@@ -17,6 +17,7 @@ def menu():
         elif escolha == '3':
             menu_emprestimos()
         elif escolha == '4':
+            print("Saindo...")
             break
         else:
             print("Opção inválida. Tente novamente.")
