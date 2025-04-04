@@ -1,0 +1,11 @@
+def processar(titulo, lista, funcao):
+    print(f'Procesando: {titulo}')
+    for i in lista:
+        print(i, ' => ', funcao(i))
+
+
+
+
+if __name__  == '__main__':
+    processar('Dobro', [2,6,3,9], lambda x: x * 2)
+    
